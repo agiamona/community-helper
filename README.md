@@ -7,7 +7,9 @@ The hosted site can be found at [https://agiamona.github.io/community-helper](ht
 There are 2 demo user credentials that can be used to access the logged in version of the site. These credentials are:
 
 username: jdoe
+
 password: pass1
 
 username: jSmith
+
 password: pass2
