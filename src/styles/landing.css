@@ -1,0 +1,74 @@
+.hero-image {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-image: url("../images/workplace-1245776_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+
+}
+.hero-image > h1 {
+    text-align: center;
+    margin: 0em;
+    font-size: 4em;
+    font-weight: bold;
+    padding-top: 4em;
+    text-shadow: 2px 2px 4px black;
+    color:white;
+}
+.landing-style > h2 {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.content-card {
+    padding: 8em 1em;
+    display: flex;
+}
+
+.content-card > h3 {
+    margin: 0em;
+    padding: 0em;
+    width: 50%;
+    display:inline-block;
+    text-align: center;
+    padding: 3em;
+    text-shadow: 2px 2px 4px black;
+    color:white;
+    font-size: 2em;
+}
+.content-card > p {
+    margin: 0em;
+    padding: 0em;
+    width: 50%;
+    display:inline-block;
+    padding: 5em;
+    font-size: 1.5em;
+}
+
+.content-card:nth-child(odd) {
+    background-color:#bcd9d7;
+}
+
+@media(max-width: 830px) { 
+    .content-card {
+        flex-flow: column wrap;
+    }
+    
+    .content-card > h3 {
+        padding-left: 0em;
+        padding-right: 0em;
+        width: 100%;
+    }
+    .content-card > p {
+        padding-left: 0em;
+        padding-right: 0em;
+        width: 100%;
+    }
+
+}
+
+
+

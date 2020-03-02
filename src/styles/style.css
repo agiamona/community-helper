@@ -1,0 +1,171 @@
+button {
+    background-color:  #ecedef;
+    color:black;
+    border-radius: 0.3em;
+    padding: 0.5em 0.8em;
+    margin: 0.2em;
+    border: none;
+    font-weight: bold;
+}
+button:active {
+    background-color:#3a595c;
+    color: white;
+}
+
+.success-container {
+    text-align: center;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    padding: 2em;
+    margin: 2em;
+    text-align: center;
+    border-radius: 0.2em;
+    background-color:#192e2f;
+    color:white;
+    
+}
+form > div {
+    text-align: right;
+    padding-right: 3em;
+}
+
+.error-border {
+    border: 2px solid red;
+}
+.error-message {
+    color:red;
+    font-size: 0.6em;
+}
+
+.hide-error {
+    display: none;
+}
+
+.align-right {
+    text-align: right;
+}
+
+
+.header-indent {
+    width: 80%;
+    margin: auto;
+    padding: 0.5em;
+}
+
+.table-container {
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+
+.card-container-layout {
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(20em, 1fr));
+}
+.card-container {
+    background-color:  #bcd9d7;
+    padding: 2em;
+    border-radius: 0.2em;
+    margin: 1em;
+}
+.light-card {
+    background-color:  #ecedef;
+}
+.card-container  > textarea{
+    width: 80%;
+    min-height: 10em;
+}
+.confirm-button {
+    background-color: #425f4b;
+    color: white;
+}
+.confirm-button:active {
+    background-color: #192e2f;
+    color:white;
+}
+
+.request-submitted {
+    color:green;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.login-message {
+    color:darkred;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fade-out-screen {
+    background-color: rgba(0,0,0,0.9);
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    top: 0em;
+    left: 0em;
+    z-index: 100;
+    overflow: auto;
+}
+
+.close-pane {
+    color: black;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 2em;
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.make-scrollable {
+    overflow: auto;
+}
+
+.heading-button {  
+    display: block;
+    background-color: #192e2f;
+    width: 80%;
+    margin: 1em auto;
+    text-decoration: none;
+    color:#ecedef;
+    font-size: 1.3em;
+    padding: 1em;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
+.heading-button:visited {
+    background-color: #192e2f;
+}
+.heading-button:active {
+    background-color:  #bcd9d7;
+    color: #192e2f;
+}
+
+
+@media(max-width: 400px) {
+
+    form > div {
+        text-align: center;
+        padding-right: 0em;
+    }
+    .card-container-layout {
+        width: 100%;
+        padding: 0em;
+    }
+    .card-container  > textarea{
+        width: 100%;
+    }
+}
