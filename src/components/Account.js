@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
+
 /**
  * Contains rendering elements for user's account page and with options to 
  * view more details about their account.
@@ -27,8 +29,8 @@ class Account extends Component {
                 <h3>Hi {this.state.user.name}!</h3>
                 <br />
                 <br />
-                <a className="heading-button" href="/account/enrolled-classes">View classes you are enrolled in</a>
-                <a className="heading-button" href="/account/requested-services">View services you have requested</a>
+                <Link className="heading-button" to="/account/enrolled-classes">View classes you are enrolled in</Link>
+                <Link className="heading-button" to="/account/requested-services">View services you have requested</Link>
             </main>
         )
     }

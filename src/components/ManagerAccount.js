@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 /**
  * Renders the manager's account page with links to other pages to manage the actual
@@ -10,9 +11,10 @@ function ManagerAccount() {
             <h2>Manager Account</h2>
             <br />
             <br />
-            <a className="heading-button" href="/manager-account/manage-services">Manage Services</a>
-            <a className="heading-button" href="/manager-account/manage-employees">Manage Employees</a>
-            <a className="heading-button" href="/manager-account/manage-volunteers">Manage Volunteers</a>
+
+            <Link className="heading-button" to="/manager-account/manage-services">Manage Services</Link>
+            <Link className="heading-button" to="/manager-account/manage-employees">Manage Employees</Link>
+            <Link className="heading-button" to="/manager-account/manage-volunteers">Manage Volunteers</Link>
         </main>
     )
     

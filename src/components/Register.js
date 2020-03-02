@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 /**
  * Contains the logic and rendering elements to support creating a new
@@ -70,7 +71,8 @@ class Register extends Component {
                 <main className="success-container">
 
                     <h1>Account created successfully!</h1>
-                    <p><a href="/login">Please login to your new account...</a></p>
+                    <p><Link to="/login">Please login to your new account...</Link></p>
+                    
                 </main> 
             )
         }

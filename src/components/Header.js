@@ -29,7 +29,7 @@ class Header extends Component {
         return (
 
             <header>
-                <p id="logo"><a href="/">Community Helper</a></p>
+                <p id="logo"><Link to="/">Community Helper</Link></p>
                 <nav>
                 <ul className="nav-list">
                     <li><Link to="/services"><i className="fas fa-hands-helping"></i><br />Services</Link></li>
